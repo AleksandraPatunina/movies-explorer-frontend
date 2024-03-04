@@ -1,0 +1,122 @@
+/*  формы входа и регистрации */
+.login__error-message {
+ margin-top: 118px;
+  visibility: hidden;
+  display: block;
+  width: 100%;
+  min-height: 14px;  
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  color: #FF004C;
+}
+
+@media (min-width: 320px)  and (max-width: 530px) {
+  .login__error-message {
+    margin-top: 205px;
+  }
+}
+
+.login__error-message_active {
+  visibility: visible;
+}
+
+.login__error-message_type_reg {
+  margin-top: 25px;
+}
+
+@media (min-width: 320px)  and (max-width: 530px) {
+  .login__error-message_type_reg {
+    margin-top: 113px;
+  }
+}
+
+.login__submit {
+  padding: 0;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  min-height: 45px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color:#FFFFFF;
+  background-color: #4285F4;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+@media (min-width: 320px)  and (max-width: 530px) {
+  .login__submit {
+    font-size: 12px;
+  }
+}
+
+.login__submit:hover {
+  background-color: #4285f4;
+  opacity: 0.8;
+}
+
+.login__submit_disabled {
+  background-color: #F8F8F8;
+  color: #C2C2C2;
+  pointer-events: none;
+}
+
+/*  форма редактирования профиля*/
+.profile__error-message {
+  visibility: hidden;
+  display: block;
+  margin: 166px 0 0;
+  min-height: 14px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  color: #FF004C;
+}
+
+@media (min-width: 531px)  and (max-width: 768px) {
+  .profile__error-message {
+    margin-top: 158px;
+  }
+}
+
+@media (min-width: 320px)  and (max-width: 530px) {
+  .profile__error-message{
+    margin-top: 325px;
+  }
+}
+
+.profile__error-message_active {
+  visibility: visible;
+}
+
+.profile__submit {
+    margin-top: 20px;
+  padding: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  color: #FFFFFF;
+  border: none;
+  background-color: transparent;
+  transition: opacity 0.3s linear;
+  cursor: pointer;
+}
+
+@media (min-width: 320px)  and (max-width: 530px) {
+  .profile__submit {
+    font-size: 12px;
+  }
+}
+
+  .profile__submit:hover {
+    opacity: 0.7;
+  }
+

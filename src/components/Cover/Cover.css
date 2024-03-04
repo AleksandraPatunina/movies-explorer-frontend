@@ -1,0 +1,19 @@
+.page__cover {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: calc(1140/1280*100%);
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .page__cover {
+      /* все содержимое +-668 шириной */
+    width: calc(668/768*100%);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__cover {
+    /* все содержимое 284 шириной */
+    width: calc(284/320*100%);
+  }
+}
