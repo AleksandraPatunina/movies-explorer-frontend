@@ -6,7 +6,7 @@ import picture from '../../images/menpicture.png'
 
 export default function AboutMe() {
   return (
-    <section className='aboutme section__aboutme'>
+    <section className='aboutme aboutme_section '>
       <Cover>
         <h2 className='aboutme__title'>Студент</h2>
         <div className='aboutme__container'>
@@ -20,7 +20,7 @@ export default function AboutMe() {
               с&nbsp;постоянной работы.</p>
             <Link to={'https://github.com/AleksandraPatunina'}  className='aboutme__link' target='_blank'>Github</Link>
           </div>
-          <img  className='aboutme__picture' src={picture} alt="#"/>
+          <img  className='aboutme__picture' src={picture} alt="Фото ученика"/>
         </div>
       </Cover>
     </section>

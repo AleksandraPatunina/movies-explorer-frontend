@@ -8,13 +8,13 @@ export default function Form({ name, children, onSubmit, isValid }) {
       {name === 'signin' ?
         <>
           <span className='login__error-message'>{'Вы ввели неправильный логин или пароль'}</span>
-          <button  type="submit" className={`login__submit ${isValid ? '' : 'login__submit_disabled'}`} disabled={!isValid} >{'Войти'}</button>
+          <button  type="submit" className={`login__submit-button ${isValid ? '' : 'login__submit-button_disabled'}`} disabled={!isValid} >{'Войти'}</button>
         </>
         :
         name === 'signup' ?
           <>
             <span className='login__error-message login__error-message_type_reg'>{'При регистрации пользователя произошла ошибка.'}</span>
-            <button className={`login__submit ${isValid ? '' : 'login__submit_disabled'}`} type="submit" >{'Зарегистрироваться'}</button>
+            <button className={`login__submit-button ${isValid ? '' : 'login__submit-button_disabled'}`} type="submit" >{'Зарегистрироваться'}</button>
           </>
           :
           <>

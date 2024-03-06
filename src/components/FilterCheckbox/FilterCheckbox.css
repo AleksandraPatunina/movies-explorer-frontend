@@ -22,6 +22,18 @@
   position: relative;
 }
 
+@media (min-width: 531px) and (max-width: 768px) {
+  .search__input-container {
+   order: -1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 530px) {
+  .search__input-container {
+    order: 1;
+  }
+}
+
 .search__check-text {
   padding-top: 3px;
   margin-left: 14px;

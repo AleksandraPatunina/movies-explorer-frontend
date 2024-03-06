@@ -37,6 +37,7 @@ export default function Profile({ name, setLoggedIn }) {
           isInputValid={isInputValid.username}
           error={errors.username}
           onChange={handleChange}
+          placeholder='Введите ваше имя'
         />
         <Input
           selectname={name}
@@ -47,6 +48,7 @@ export default function Profile({ name, setLoggedIn }) {
           isInputValid={isInputValid.email}
           error={errors.email}
           onChange={handleChange}
+          placeholder='example@example.com'
         />
       </Form>
       <Link to={'/'} onClick={signOut} className='profile__link'>Выйти из аккаунта</Link>

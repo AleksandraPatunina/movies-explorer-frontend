@@ -18,8 +18,8 @@ export default function MoviesCard({ name, src, trailerLink }) {
   return (
     <li className='movies-gallery__card'>
       <article>
-        <Link to={trailerLink} target='_blank'>
-          <img src={src} alt="#" className='movies-gallery__image' />
+        <Link to={trailerLink}>
+          <img src={src} alt="Изображение трейлера фильма" className='movies-gallery__image' />
         </Link>
         <div className='movies-gallery__card-set'>
           <div className='movies-gallery__text-set'>

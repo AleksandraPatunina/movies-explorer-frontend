@@ -54,12 +54,13 @@ function App() {
 
         <Route path='*' element={
           <>
-            <Main name='error-page' />
+            <Main name='error' />
           </>
         } />
 
       </Routes>
     </div>
+  
   );
 }
 

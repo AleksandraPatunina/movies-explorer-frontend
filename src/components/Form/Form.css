@@ -32,9 +32,9 @@
   }
 }
 
-.login__submit {
+.login__submit-button  {
   padding: 0;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   border: none;
   border-radius: 3px;
   width: 100%;
@@ -49,17 +49,17 @@
 }
 
 @media (min-width: 320px)  and (max-width: 530px) {
-  .login__submit {
+  .login__submit-button  {
     font-size: 12px;
   }
 }
 
-.login__submit:hover {
+.login__submit-button :hover {
   background-color: #4285f4;
   opacity: 0.8;
 }
 
-.login__submit_disabled {
+.login__submit-button_disabled{
   background-color: #F8F8F8;
   color: #C2C2C2;
   pointer-events: none;

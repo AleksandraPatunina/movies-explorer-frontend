@@ -1,5 +1,6 @@
 .page__about-project{
   padding: 110px 0;
+  background-color: #202020;
 }
 
 @media (min-width: 768px) and (max-width: 1024px)  {
@@ -10,9 +11,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .page__about-projectt {
-    padding-top: 70px;
+  .page__about-project {
+    /* padding-top: 70px; */
+    padding-top: 30px;
     padding-bottom: 69px;
+ 
   }
 }
 
@@ -127,7 +130,7 @@ grid-template-columns: calc(20%) 1fr;
 
 @media (min-width: 320px) and (max-width: 767px){
   .about-project__length {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: calc(35%) 1fr;
     row-gap: 10px;
   }
 }
