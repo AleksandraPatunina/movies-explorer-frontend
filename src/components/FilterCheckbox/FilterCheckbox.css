@@ -1,6 +1,7 @@
 .search__label-container {
   display: flex;
-  align-self: flex-start;
+ align-self: flex-start;
+  /* justify-self: start; */
   cursor: pointer;
   transition: opacity 0.3s linear;
 }
@@ -14,6 +15,7 @@
 
 @media (min-width: 320px) and (max-width: 530px) {
   .search__label-container {
+    margin-top: 4px;
     align-self: center;
   }
 }

@@ -21,6 +21,7 @@ export default function Login({ name, setLoggedIn }) {
         name='email'
         type='email'
         title='E-mail'
+        minLength='3'
         value={values.email}
         isInputValid={isInputValid.email}
         error={errors.email}

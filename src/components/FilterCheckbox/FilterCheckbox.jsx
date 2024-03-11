@@ -5,8 +5,8 @@ import './FilterCheckbox.css'
  export default function FilterCheckbox({ isCheck, changeBox }) {
   return (
     <label className='search__label-container'>
-      <div className='search__input-container'>
-        <input type="checkbox" className='search__ckeck' onChange={changeBox} />
+      <span className='search__input-container'>
+        <input type="checkbox" className='search__ckeck' onChange={changeBox}/>
         <svg className='search__check-svg' width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="smalltumb">
           {/* прямоугольник внутри SVG изображения, который меняет свой класс в зависимости от значения isCheck. */}
@@ -21,7 +21,7 @@ import './FilterCheckbox.css'
             />
           </g>
         </svg>
-      </div>
+      </span>
       <span className='search__check-text'>Короткометражки</span>
     </label>
   )

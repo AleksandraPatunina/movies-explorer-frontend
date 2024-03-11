@@ -15,6 +15,7 @@ export default function Input({ selectname, name, type, title, minLength, value,
             className={`login__input ${isInputValid === undefined || isInputValid ? '' : 'login__input_invaid'}`}
             value={value || ''}
             onChange={onChange}
+            placeholder='Заполните поле'
           />
           <span className='login__error'>{error}</span>
         </label>
@@ -30,6 +31,7 @@ export default function Input({ selectname, name, type, title, minLength, value,
             className={`profile__input ${isInputValid === undefined || isInputValid ? '' : 'profile__input_invaid'}`}
             value={value || ''}
             onChange={onChange}
+            placeholder='Имя пользователя'
           />
         </label>
         <span className={`profile__error ${name === 'username' ? 'profile__error_type_name' : ''}`}>{error}</span>

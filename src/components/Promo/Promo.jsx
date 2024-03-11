@@ -10,7 +10,7 @@ export default function Promo() {
     <section className='promo page__promo'>
       <div className='promo__container'>
         {/* проверить, нужен ли будет здесь неразделимый дефис (&#8209;) */}
-        <h2 className='promo__title'>Учебный проект студента факультета Веб&#8209;разработки.</h2> 
+        <h1 className='promo__title'>Учебный проект студента факультета Веб&#8209;разработки.</h1> 
         <p className='promo__text'>Листайте ниже, чтобы узнать больше про этот проект и его создателя.</p>
         <HashLink className='promo__link' smooth to='#aboutProject' >Узнать больше</HashLink>
       </div>

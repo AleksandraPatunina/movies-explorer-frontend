@@ -1,4 +1,5 @@
-.page__login {
+
+.login {
   padding-top: 70px;
   padding-bottom: 70px;
   margin: 0 auto;
@@ -6,14 +7,14 @@
 }
 
 @media (min-width: 531px) and (max-width: 768px) {
-  .page__login {
+  .login {
     padding-top: 232px;
     padding-bottom: 232px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 530px) {
-  .page__login {
+  .login {
     padding-top: 56px;
     padding-bottom: 30px;
     width: calc(260/320*100%);

@@ -14,7 +14,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .aboutme_section  {
-    padding-top: 72px;
+    padding-top: 68px;
     padding-bottom: 70px;
   }
 }
@@ -23,12 +23,11 @@
   font-family: Inter;
   margin:  0 0 66px;
   padding-bottom: 24px;
-  /* color: #FFFFFF; */
   border-bottom: 1px solid #DADADA;
   font-size: 22px;
   font-weight: 400;
-  line-height: 27px;
-  letter-spacing: -2px;
+  line-height: 25px;
+  letter-spacing: -1px;
   
 }
 

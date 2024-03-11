@@ -64,6 +64,8 @@
    color: #4285F4;
    text-decoration: none;
   transition: opacity 0.3s linear;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 @media (min-width: 320px) and (max-width: 530px) {

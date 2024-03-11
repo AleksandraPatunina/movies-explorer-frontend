@@ -12,8 +12,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .page__about-project {
-    /* padding-top: 70px; */
-    padding-top: 30px;
+    padding-top: 70px;
     padding-bottom: 69px;
  
   }
@@ -64,7 +63,7 @@
   .about-project__container {
     margin-bottom: 62px;
     grid-template-columns: 1fr;
-    row-gap: 17px;    
+    row-gap: 15px;    
   }
 }
 

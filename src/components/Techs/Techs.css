@@ -13,8 +13,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .page__techs {
-    /* padding-top: 70px; */
-    padding-top: 40px;
+    padding-top: 70px;
     padding-bottom: 70px;
   }
 }
