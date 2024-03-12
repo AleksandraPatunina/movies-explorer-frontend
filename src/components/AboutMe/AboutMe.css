@@ -1,0 +1,180 @@
+.aboutme_section  {
+ padding: 110px 0 100px;
+  width: 100%;
+  background-color: #202020;
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme_section  {
+    padding-top: 90px;
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme_section  {
+    padding-top: 68px;
+    padding-bottom: 70px;
+  }
+}
+
+.aboutme__title {
+  font-family: Inter;
+  margin:  0 0 66px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DADADA;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -1px;
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__title {
+    margin-bottom: 60px;
+    padding-bottom: 28px;
+    font-size: 18px;
+    letter-spacing: -0.70px;
+  }
+}
+
+.aboutme__container {
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: minmax(0, 600px) 270px;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme__container {
+    grid-template-columns: minmax(0, 370px) 257px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__container {
+    grid-template-columns: minmax(284px, auto);
+    row-gap: 38px;
+    justify-content: center;
+
+  }
+}
+
+.aboutme__student-name {
+  margin: 0 0 18px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -2px;
+  text-align: left;
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme__student-name{
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__student-name{
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1.2px;
+  }
+}
+
+.aboutme__job {
+  margin: 0 0 26px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme__job {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__job {
+    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+.aboutme__description {
+  margin: 0 0 99px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme__description {
+    margin-bottom: 86px;
+    font-size: 12px;
+    line-height: 18px
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__description {
+    margin-bottom: 40px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+.aboutme__picture {
+  object-fit: cover;
+  display: block;
+  width: 270px;
+  height: 327px;
+  border-radius: 10px;
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutme__picture {
+    width: 255px;
+    height: 307px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .aboutme__picture:first-of-type {
+    justify-self: center;
+    width: 292px;
+    height: 352px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.aboutme__link {
+  color:#FFFFFF;
+    text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  transition: opacity 0.3s linear;
+}
+
+  .aboutme__link:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
